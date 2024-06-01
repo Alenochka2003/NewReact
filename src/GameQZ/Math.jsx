@@ -1,16 +1,16 @@
 import React from 'react';
-import Answer from './Answer';
+// import Answer from './Answer';
 import MathQuiz from './MathQuiz';
 import './Style.css';
 
 
-function MathComponent() { 
+function Math() { 
   return (
     <div className="Math">
-      <Answer />
+      {/* <Answer /> */}
       <MathQuiz />
     </div>
   );
 }
 
-export default MathComponent;
+export default Math;
